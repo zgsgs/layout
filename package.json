@@ -36,7 +36,7 @@
     "release:minor": "standard-version --release-as minor",
     "release:major": "standard-version --release-as major",
     "publish": "npm publish --access=public",
-    "release:publish": "npm release && pnpm publish",
+    "release:publish": "pnpm release && pnpm publish",
     "type:check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0 --fix",
     "lint:fix": "lint-staged",
